@@ -31,7 +31,7 @@ public class ReportTest {
             employeeReportList.getMoreEarnedManagersList().forEach((key, value) -> System.out.println(" Manager " + key + " earns more, the more amount is :: " + value));
         }
 
-        System.out.println(" \n \n ######### Employees have a reporting line which is too long #########");
+        System.out.println(" \n \n ######### The reporting line for employees is too long #########");
         if (longReportingEmployeesList.isEmpty()) {
             System.out.println(" No records found");
         } else {
